@@ -36,7 +36,11 @@ let EveryData = [
         role: "student"
     }
  ]
- let another_string = "Murtaza is awesome in programming"
+let a = "you cannot end a sentence with because because because is a conjuction"
+let blank = " "
+const blue = " "
+let boolean = "false"
+let another_string = "Murtaza is awesome in programming"
 let slicy_string = "murtaza is a good teacher"
 let split_string = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
 let replaced_string = "you will learn JavaScript"
@@ -52,3 +56,7 @@ console.log(replaced_string.replace("javascript","python"))
 console.log(small_word.charAt(5))
 console.log(small_word.indexOf("a"))
 console.log(small_word.lastIndexOf("a"))
+console.log(a.split(" "))
+console.log(a.indexOf("because"))
+console.log("/t/t1 1 1 1 1/n/t/t2 1 2 4 8/n/t/t3 1 3 9 27/n/t/t4 1 4 16 64/n/t/t5 1 5 25 125")
+console.log(small_word.includes(java))
